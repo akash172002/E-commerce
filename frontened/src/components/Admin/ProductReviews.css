@@ -1,0 +1,48 @@
+.reviewListContainer {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-left: 1px solid #ccc;
+  height: 100vh;
+}
+
+.createReviewForm {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 3vmax;
+  background-color: #fff;
+}
+
+.productReviewsFormHeading {
+  color: rgba(0, 0, 0, 0.733);
+  font: 300 1rem "Roboto";
+  text-align: center;
+}
+
+.createReviewForm > div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin: 2rem;
+}
+
+.createReviewForm > div > input {
+  padding: 1vmax 4vmax;
+  padding-right: 1vmax;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 4px;
+  font: 300 1rem cursive;
+  outline: none;
+}
+
+.createReviewForm > div > svg {
+  position: absolute;
+  transform: translateX(1vmax);
+  font-size: 1.6vmax;
+  color: rgba(0, 0, 0, 0.623);
+}

@@ -1,0 +1,125 @@
+.confirmOrderPage {
+  height: 100vh;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 6fr 3fr;
+}
+
+.confirmOrderPage > div:last-child {
+  border-left: 1px solid rgba(0, 0, 0, 0.247);
+}
+
+.confirmShippingArea {
+  padding: 5vmax;
+  padding-bottom: 0%;
+}
+
+.confirmShippingArea > p {
+  font: 400 1.8vmax "Roboto";
+}
+
+.confirmShippingAreabox,
+.confirmCartItemsContainer {
+  margin: 2vmax;
+}
+
+.confirmShippingAreabox > div {
+  display: flex;
+  margin: 1vmax 0;
+}
+
+.confirmShippingAreabox > div > p {
+  font: 400 1vmax "Roboto";
+  color: black;
+}
+
+.confirmShippingAreabox > div > span {
+  margin: 0 1vmax;
+  font: 100 1vmax "Roboto";
+  color: #575757;
+}
+
+.confirmCartitems > p {
+  font: 400 1.8vmax "Roboto";
+}
+
+.confirmCartitems {
+  padding: 5vmax;
+  padding-top: 2vmax;
+}
+
+.confirmCartItemsContainer {
+  max-height: 20vmax;
+  overflow-y: auto;
+}
+.confirmCartItemsContainer > div {
+  display: flex;
+  justify-content: space-between;
+  font: 400 1vmax "Roboto";
+  margin: 2vmax 0;
+  align-items: center;
+}
+.confirmCartItemsContainer > div > img {
+  width: 3vmax;
+}
+
+.confirmCartItemsContainer > div > a {
+  color: #575757;
+  margin: 0 2vmax;
+  width: 60%;
+  text-decoration: none;
+}
+
+.confirmCartItemsContainer > div > span {
+  font: 100 1vmax "Roboto";
+  color: #5e5e5e;
+}
+
+.orderSummary {
+  padding: 7vmax;
+}
+
+.orderSummary > p {
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+  box-sizing: border-box;
+  padding: 1vmax;
+  width: 100%;
+  margin: auto;
+  font: 400 1.8vmax "Roboto";
+}
+
+.orderSummary > div > div {
+  display: flex;
+  font: 300 1vmax "Roboto";
+  justify-content: space-between;
+  margin: 2vmax 0;
+}
+
+.orderSummary > div > div > span {
+  color: rgba(0, 0, 0, 0.692);
+}
+
+.orderSummaryTotal {
+  display: flex;
+  border-top: 1px solid rgba(0, 0, 0, 0.363);
+  justify-content: space-between;
+  padding: 2vmax 0;
+  font: 300 1vmax "Roboto";
+}
+
+.orderSummary > button {
+  background-color: tomato;
+  color: #fff;
+  width: 100%;
+  transition: 0.5s;
+  font: 400 1vmax "Roboto";
+  padding: 1vmax;
+  border: none;
+  margin: auto;
+  cursor: pointer;
+}
+
+.orderSummary > button:hover {
+  background-color: rgb(192, 71, 50);
+}
